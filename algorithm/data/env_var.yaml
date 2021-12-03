@@ -1,0 +1,83 @@
+#1:boe_prod,2:线上-国内,3:线上-新加坡,4:线上-美东
+#BOE
+"1":
+#通用参数
+      host: http://algorithm-test.bytedance.net
+      openhost: http://algorithm-evaluation-daemon.boe.bytedance.net
+      space_id : "1012" #空间id
+      biz_line: "1013" #业务线id
+      algorithm-business: alg_9cd87b893ff603dd #业务方id，用于openapi授权
+      token: a33c6729f5feb0dfcd1cab54df565256
+#menu_id
+      标注任务 : "1772"
+      标注组 : "235"
+      标注模板 : "216"
+      任务看板 : "1771"
+      旧闭环 : "3360"
+      闭环配置 : "3366"
+      算法配置: ""
+
+#PPE
+"2":
+#通用参数
+      host: https://api-cd.ailearn100.cn
+      openhost: https://algorithm-evaluation-daemon.bytedance.net
+      space_id : "1059" #空间id
+      biz_line: "1060" #业务线id
+      algorithm-business: alg_9746a89ff961f671 #业务方id，用于openapi授权
+      token: eecdcf2e8376acbbc2a0ed0f7366f89b
+#menu_id
+      标注任务 : "259"
+      标注组 : "216"
+      标注模板 : "260"
+      任务看板 : "716"
+      旧闭环 : "3360"
+      闭环配置 : "1219"
+      算法配置: "1226"
+
+#线上
+"3":
+#通用参数
+      host: https://api-cd.ailearn100.cn
+      openhost: https://algorithm-evaluation-daemon.bytedance.net
+      space_id : "1059" #空间id
+      biz_line: "1060" #业务线id
+      algorithm-business: alg_9746a89ff961f671 #业务方id，用于openapi授权
+      token: eecdcf2e8376acbbc2a0ed0f7366f89b
+#menu_id
+      标注任务 : "259"
+      标注组 : "216"
+      标注模板 : "260"
+      任务看板 : "716"
+      旧闭环 : "1213"
+      闭环配置 : "1219"
+      算法配置: "1226"
+
+"4":
+#通用参数
+      host: http://algorithm-test.bytedance.net
+      openhost: http://algorithm-evaluation-daemon.boe.bytedance.net
+      space_id : 1012 #空间id
+      biz_line: 1013 #业务线id
+      algorithm-business: alg_9cd87b893ff603dd #业务方id，用于openapi授权
+#menu_id
+      annotate : 1772
+      team : 235
+      template : 216
+      board : 1771
+      n_dataloop : 3366
+      o_dataloop : 3360
+"5":
+#通用参数
+      host: http://algorithm-test.bytedance.net
+      openhost: http://algorithm-evaluation-daemon.boe.bytedance.net
+      space_id : 1012 #空间id
+      biz_line: 1013 #业务线id
+      algorithm-business: alg_9cd87b893ff603dd #业务方id，用于openapi授权
+#menu_id
+      annotate : 1772
+      team : 235
+      template : 216
+      board : 1771
+      n_dataloop : 3366
+      o_dataloop : 3360
